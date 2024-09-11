@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .carousel-caption {
+            position: absolute;
+            z-index: 1;
+            display:table;
+            width:100%;
+            height:100%;
+        }
+        
+        .carousel-caption div {
+            display:table-cell;
+            vertical-align: middle;
+            text-align:center;
+        }
+        
+        .trickcenter {
+            position: fixed;
+            top: 84%; // 50% for perfect centering
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        </style>
+</body>
+<div class="item">
+    <img src="mountain.jpg">
+    <div class="carousel-caption trickcenter">
+        <div>HERE THE TEXT YOU WANT</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="mountain.jpg">
+    <div class="carousel-caption trickcenter">
+        <div>HERE THE SECOND TEXT</div>
+    </div>
+</div>
+</html>
